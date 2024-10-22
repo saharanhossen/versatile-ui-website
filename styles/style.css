@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.health-care {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 40px;
+}
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.nav-manu-btn {
+  color: black;
+  padding: 5px;
+  border: none;
+}
+.home-btn {
+  background-color: rgb(230, 83, 60);
+  border-radius: 20px;
+  border: none;
+}
+.nav-ham-manu{
+    display: none;
+}
