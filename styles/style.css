@@ -125,7 +125,8 @@
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .trainer-container {
   display: flex;
@@ -136,6 +137,11 @@
 .end-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
     margin: 50px;
     margin-right: 50px;
+    background-color: lightgray;
+    height: 200px;
+    padding: 60px;
 }
