@@ -16,7 +16,7 @@
 .navbar-main {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -30,6 +30,112 @@
   border-radius: 20px;
   border: none;
 }
-.nav-ham-manu{
-    display: none;
+.nav-ham-manu {
+  display: none;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.banner-childs {
+  width: 47%;
+  position: relative;
+  color: white;
+}
+.banner-childs img {
+  width: 70%;
+}
+.banner-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(17, 17, 17);
+}
+.banner-btn-1 {
+  background-color: rgb(230, 83, 60);
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.banner-btn-2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.workout {
+  background-color: rgba(0, 0, 0, 0.11);
+  color: white;
+  width: max-content;
+  padding: 15px 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+.habit-section {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card img {
+  border-radius: 90px;
+}
+.discription {
+  text-align: center;
+  margin-right: 60px;
+}
+.running-easy {
+  display: grid;
+  grid-template-columns: 7fr, 5fr;
+}
+.running-easy {
+  background-color: rgb(34, 34, 34);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+.running-img {
+  width: 47%;
+  border-radius: 5px;
+  color: white;
+}
+.running-img img {
+  width: 100%;
+}
+.join-btn {
+  background-color: rgb(230, 83, 60);
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+}
+.team-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.trainer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.end-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px;
+    margin-right: 50px;
 }

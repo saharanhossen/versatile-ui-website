@@ -5,4 +5,24 @@
     .btn-container{
         display: none;
     }
+    .banner-main{
+        flex-direction: column;
+    }
+    .workout{
+        left: 70%;
+    }
+    .card{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 180px;
+        
+    }
+    .discription{
+        margin-right: 110px;
+    }
+    .running-easy{
+        flex-direction: column;
+    }
+    .running-img{
+        width: 100%;
+    }
 }
